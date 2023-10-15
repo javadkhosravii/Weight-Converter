@@ -1,6 +1,7 @@
 // hidden the menu
 document.getElementById('output').style.visibility = 'hidden'
 
+
 document.getElementById('input').addEventListener('click', () => {
     document.getElementById('output').style.visibility = 'visible'
     let pounds = input.value; //get the value of the the input
